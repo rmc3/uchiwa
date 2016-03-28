@@ -74,6 +74,10 @@ func (api *API) getSlice(endpoint string, limit int) ([]interface{}, error) {
 				return nil, fmt.Errorf("Could not parse the JSON-encoded response body: %v", err)
 			}
 
+			if len(partialList) == 0 {
+				break
+			}
+
 			for _, e := range partialList {
 				list = append(list, e)
 			}
