@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/sensu/uchiwa/uchiwa/auth"
-	"github.com/sensu/uchiwa/uchiwa/logger"
-	"github.com/sensu/uchiwa/uchiwa/structs"
+	"github.com/rmc3/uchiwa/uchiwa/auth"
+	"github.com/rmc3/uchiwa/uchiwa/logger"
+	"github.com/rmc3/uchiwa/uchiwa/structs"
 )
 
 // FilterAggregates is a function that filters aggregates

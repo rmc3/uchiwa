@@ -1,6 +1,6 @@
 package uchiwa
 
-import "github.com/sensu/uchiwa/uchiwa/logger"
+import "github.com/rmc3/uchiwa/uchiwa/logger"
 
 // ResolveEvent sends a DELETE request in order to
 // resolve an event for a given check on a given client

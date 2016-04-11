@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/sensu/uchiwa/uchiwa/structs"
+	"github.com/rmc3/uchiwa/uchiwa/structs"
 )
 
 // GetInfo returns a pointer to a structs.Info struct containing the

@@ -1,6 +1,6 @@
 package uchiwa
 
-import "github.com/sensu/uchiwa/uchiwa/logger"
+import "github.com/rmc3/uchiwa/uchiwa/logger"
 
 // GetAggregate retrieves a list of issued timestamps from a specified DC
 func (u *Uchiwa) GetAggregate(check string, dc string) (*[]interface{}, error) {

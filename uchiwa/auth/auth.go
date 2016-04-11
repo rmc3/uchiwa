@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/sensu/uchiwa/uchiwa/structs"
+import "github.com/rmc3/uchiwa/uchiwa/structs"
 
 // Config struct contains the authentication configuration
 type Config struct {

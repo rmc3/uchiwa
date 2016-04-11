@@ -3,7 +3,7 @@ package uchiwa
 import (
 	"testing"
 
-	"github.com/sensu/uchiwa/uchiwa/structs"
+	"github.com/rmc3/uchiwa/uchiwa/structs"
 	"github.com/stretchr/testify/assert"
 )
 

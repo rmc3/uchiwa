@@ -1,6 +1,6 @@
 package daemon
 
-import "github.com/sensu/uchiwa/uchiwa/structs"
+import "github.com/rmc3/uchiwa/uchiwa/structs"
 
 func (d *Daemon) buildDatacenter(name *string, info *structs.Info) *structs.Datacenter {
 	datacenter := structs.Datacenter{

@@ -1,8 +1,8 @@
 package daemon
 
 import (
-	"github.com/sensu/uchiwa/uchiwa/helpers"
-	"github.com/sensu/uchiwa/uchiwa/structs"
+	"github.com/rmc3/uchiwa/uchiwa/helpers"
+	"github.com/rmc3/uchiwa/uchiwa/structs"
 )
 
 // buildMetrics ...

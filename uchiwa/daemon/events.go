@@ -3,8 +3,8 @@ package daemon
 import (
 	"fmt"
 
-	"github.com/sensu/uchiwa/uchiwa/helpers"
-	"github.com/sensu/uchiwa/uchiwa/logger"
+	"github.com/rmc3/uchiwa/uchiwa/helpers"
+	"github.com/rmc3/uchiwa/uchiwa/logger"
 )
 
 // BuildEvents constructs events objects for frontend consumption

@@ -7,10 +7,10 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gorilla/context"
-	"github.com/sensu/uchiwa/uchiwa/audit"
-	"github.com/sensu/uchiwa/uchiwa/helpers"
-	"github.com/sensu/uchiwa/uchiwa/logger"
-	"github.com/sensu/uchiwa/uchiwa/structs"
+	"github.com/rmc3/uchiwa/uchiwa/audit"
+	"github.com/rmc3/uchiwa/uchiwa/helpers"
+	"github.com/rmc3/uchiwa/uchiwa/logger"
+	"github.com/rmc3/uchiwa/uchiwa/structs"
 )
 
 const jwtToken = "jwtToken"

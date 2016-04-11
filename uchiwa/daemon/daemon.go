@@ -3,9 +3,9 @@ package daemon
 import (
 	"time"
 
-	"github.com/sensu/uchiwa/uchiwa/logger"
-	"github.com/sensu/uchiwa/uchiwa/sensu"
-	"github.com/sensu/uchiwa/uchiwa/structs"
+	"github.com/rmc3/uchiwa/uchiwa/logger"
+	"github.com/rmc3/uchiwa/uchiwa/sensu"
+	"github.com/rmc3/uchiwa/uchiwa/structs"
 )
 
 const datacenterErrorString = "Connection error. Is the Sensu API running?"

@@ -1,8 +1,8 @@
 package uchiwa
 
 import (
-	"github.com/sensu/uchiwa/uchiwa/logger"
-	"github.com/sensu/uchiwa/uchiwa/structs"
+	"github.com/rmc3/uchiwa/uchiwa/logger"
+	"github.com/rmc3/uchiwa/uchiwa/structs"
 )
 
 // IssueCheckExecution sends a POST request to the /stashes endpoint in order to create a stash

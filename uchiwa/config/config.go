@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/palourde/mergo"
-	"github.com/sensu/uchiwa/uchiwa/auth"
-	"github.com/sensu/uchiwa/uchiwa/logger"
+	"github.com/rmc3/uchiwa/uchiwa/auth"
+	"github.com/rmc3/uchiwa/uchiwa/logger"
 )
 
 var (

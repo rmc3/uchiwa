@@ -3,11 +3,11 @@ package main
 import (
 	"flag"
 
-	"github.com/sensu/uchiwa/uchiwa"
-	"github.com/sensu/uchiwa/uchiwa/audit"
-	"github.com/sensu/uchiwa/uchiwa/auth"
-	"github.com/sensu/uchiwa/uchiwa/config"
-	"github.com/sensu/uchiwa/uchiwa/filters"
+	"github.com/rmc3/uchiwa/uchiwa"
+	"github.com/rmc3/uchiwa/uchiwa/audit"
+	"github.com/rmc3/uchiwa/uchiwa/auth"
+	"github.com/rmc3/uchiwa/uchiwa/config"
+	"github.com/rmc3/uchiwa/uchiwa/filters"
 )
 
 func main() {
